@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sxg/Workspace/cpp/houjie/STL/iterator_category.cpp
+typeinfo
+-
+iostream
+-
+vector
+-
+array
+-
+list
+-
+forward_list
+-
+deque
+-
+set
+-
+map
+-
+unordered_map
+-
+unordered_set
+-
+iterator
+-
+

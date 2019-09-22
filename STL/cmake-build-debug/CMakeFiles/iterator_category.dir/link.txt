@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/iterator_category.dir/iterator_category.cpp.o  -o iterator_category 

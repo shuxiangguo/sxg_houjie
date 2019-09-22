@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sxg/Workspace/cpp/houjie/STL/stl_test.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+functional
+-
+list
+-
+

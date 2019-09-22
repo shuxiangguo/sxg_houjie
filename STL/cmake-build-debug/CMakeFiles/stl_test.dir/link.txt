@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/stl_test.dir/stl_test.cpp.o  -o stl_test 
