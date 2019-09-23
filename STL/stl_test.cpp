@@ -202,7 +202,9 @@ namespace sxg03 {
         }
         cout << endl;
     }
+}
 
+namespace sxg04 {
 
 }
 

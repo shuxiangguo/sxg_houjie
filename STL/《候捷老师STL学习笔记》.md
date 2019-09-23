@@ -351,3 +351,12 @@ namespace sxg01 {
 
 ![1569246491617](/home/sxg/Workspace/cpp/houjie/STL/istream_iterator.png)
 
+## 18. tuple
+
+![1569259481393](/home/sxg/Workspace/cpp/houjie/STL/tuple.png)
+
+
+
+## 19. type traits
+
+![1569259922100](/home/sxg/Workspace/cpp/houjie/STL/type_traits.png)
