@@ -1,3 +1,0 @@
-/home/sxg/Workspace/cpp/houjie/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/sxg/Workspace/cpp/houjie/cmake-build-debug/CMakeFiles/houjie.dir
-/home/sxg/Workspace/cpp/houjie/cmake-build-debug/CMakeFiles/edit_cache.dir
