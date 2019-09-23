@@ -1,5 +1,7 @@
 # 《候捷老师STL学习笔记》
 
+> 使用一个东西却不明白它的道理，不高明-----侯捷老师
+
 ## 1.各种容器的iterators的iterator_category
 
 ```c++
@@ -334,3 +336,18 @@ namespace sxg01 {
 ![1569154136038](/home/sxg/Workspace/cpp/houjie/STL/insertor.png)
 
 **太巧妙了:inserter辅助函数内部又调用insert_iterator，insert_iterator对=实现了操作符重载，改变了copy的=！！！**
+
+
+
+## 16. X 适配器：ostream_iterator
+
+标准库里的代码实现太完美了！
+
+![1569245548476](/home/sxg/Workspace/cpp/houjie/STL/ostream_iterator.png)
+
+
+
+## 17. X适配器：istream_iterator
+
+![1569246491617](/home/sxg/Workspace/cpp/houjie/STL/istream_iterator.png)
+

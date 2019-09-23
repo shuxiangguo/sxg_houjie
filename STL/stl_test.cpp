@@ -145,6 +145,8 @@ namespace sxg01 {
 }
 
 #include <list>
+#include <iterator>
+
 namespace sxg02 {
 
 
@@ -166,11 +168,51 @@ namespace sxg02 {
     }
 }
 
+namespace sxg03 {
+    void test_ostream_iterator() {
+        vector<int> vec;
+        for (int i = 0; i < 10; i++) {
+            vec.push_back(i*10);
+        }
+
+        std::ostream_iterator<int> out_it(std::cout, ", ");
+        std::copy(vec.begin(), vec.end(), out_it);
+    }
+
+    void test_istream_iterator() {
+        double value1, value2;
+        std::cout << "Please input two values:";
+        std::istream_iterator<double>eos; // end-of-stream iterator
+        std::istream_iterator<double> iit(std::cin); //stdin iterator
+
+        if (iit != eos) {
+            value1 = *iit;
+        }
+
+        ++iit;
+
+        if (iit != eos) value2 = *iit;
+
+        std::cout << value1 << "*" << value2 << "=" << (value1*value2) << endl;
+
+        vector<int> c {10, 20, 30};
+        copy(iit, eos, inserter(c, c.begin()));
+        for (auto x : c) {
+            cout << x << " ";
+        }
+        cout << endl;
+    }
+
+
+}
+
 int main() {
 //    jj35::test_for_each();
 //    sxg::test_replace_if();
 //    sxg::test_lower_bound();
 //    sxg01::test_bind();
-    sxg02::test_inserter();
+//    sxg02::test_inserter();
+    sxg03::test_ostream_iterator();
+    sxg03::test_istream_iterator();
     return 0;
 }
