@@ -360,3 +360,8 @@ namespace sxg01 {
 ## 19. type traits
 
 ![1569259922100](/home/sxg/Workspace/cpp/houjie/STL/type_traits.png)
+
+
+
+![1569284051528](/home/sxg/Workspace/cpp/houjie/STL/type__traits.png)
+
